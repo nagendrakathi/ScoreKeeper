@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80" alt="">
+        <h3 id="title">Ping Pong Score Keeper</h3>
+        <div class="info">
+            <h1 id="scores"><span id="p1Score">0</span> - <span id="p2Score">0</span><span id="winner-announce"></span></h1>
+            <span id="info">Use the buttons below to keep score</span>
+            <div id="set-score">
+                <label for="playto">Playing to</label>
+                <select name="" id="playto">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttons">
+                <button id="p1Button">+1 Player One</button>   
+                <button id="p2Button">+1 Player Two</button>
+                <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
